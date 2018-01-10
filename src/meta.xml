@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright 1999-2018. Plesk International GmbH. All rights reserved. -->
+<module>
+  <id>cloud-backup-example</id>
+  <name>Cloud Backup Example</name>
+  <description>Back up and restore your domains using a local folder.</description>
+  <category>backup</category>
+  <url>https://plesk.com/</url>
+  <version>1.0.0</version>
+  <release>{{RELEASE}}</release>
+  <vendor>Plesk</vendor>
+  <plesk_min_version>17.8.7</plesk_min_version>
+</module>

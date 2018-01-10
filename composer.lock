@@ -1,0 +1,98 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "aa53783a9e68cae79c763266fb64b83d",
+    "packages": [],
+    "packages-dev": [
+        {
+            "name": "plesk/pm-api-stubs",
+            "version": "17.8.7",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/plesk/pm-api-stubs.git",
+                "reference": "d1d3c98b20bf721e0eb68fd10beb104dc5d238ec"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/plesk/pm-api-stubs/zipball/d1d3c98b20bf721e0eb68fd10beb104dc5d238ec",
+                "reference": "d1d3c98b20bf721e0eb68fd10beb104dc5d238ec",
+                "shasum": ""
+            },
+            "require": {
+                "zendframework/zendframework1": "^1.12.17"
+            },
+            "require-dev": {
+                "phpdocumentor/phpdocumentor": "^2.9"
+            },
+            "type": "library",
+            "autoload": {
+                "classmap": [
+                    "pm"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "Apache-2.0"
+            ],
+            "description": "Plesk Extensions API PHP files stubs for IDE.",
+            "time": "2017-10-12T10:35:29+00:00"
+        },
+        {
+            "name": "zendframework/zendframework1",
+            "version": "1.12.20",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/zendframework/zf1.git",
+                "reference": "737ef159654fbbef37cf9af742b2c8f9690c2ece"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/zendframework/zf1/zipball/737ef159654fbbef37cf9af742b2c8f9690c2ece",
+                "reference": "737ef159654fbbef37cf9af742b2c8f9690c2ece",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.2.11"
+            },
+            "require-dev": {
+                "phpunit/dbunit": "1.3.*",
+                "phpunit/phpunit": "3.7.*"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.12.x-dev"
+                }
+            },
+            "autoload": {
+                "psr-0": {
+                    "Zend_": "library/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "include-path": [
+                "library/"
+            ],
+            "license": [
+                "BSD-3-Clause"
+            ],
+            "description": "Zend Framework 1",
+            "homepage": "http://framework.zend.com/",
+            "keywords": [
+                "ZF1",
+                "framework"
+            ],
+            "time": "2016-09-08T14:50:34+00:00"
+        }
+    ],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": [],
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": []
+}
