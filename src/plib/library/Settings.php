@@ -44,8 +44,8 @@ class Modules_CloudBackupExample_Settings
                 break;
         }
         $settings = null == $this->object
-            ? json_decode(pm_Settings::get(self::SETTINGS_NAME), true)
-            : json_decode($this->object->getSetting(self::SETTINGS_NAME), true);
+            ? json_decode(pm_Settings::get(self::SETTINGS_NAME, ''), true)
+            : json_decode($this->object->getSetting(self::SETTINGS_NAME, ''), true);
         if (is_array($settings)) {
             $this->settings = $settings;
         }
